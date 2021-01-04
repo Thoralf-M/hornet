@@ -54,7 +54,7 @@ var (
 )
 
 func init() {
-	prvkey, err := utils.ParseEd25519PrivateKeyFromString("96f9de0989e77d0e150e850a5a600e83045fa57419eaf3b20225b763d4e23813")
+	prvkey, err := utils.ParseEd25519PrivateKeyFromString("256a818b2aac458941f7274985a410e57fb750f3a3a67969ece5bd9ae7eef5b2f7868ab6bb55800b77b8b74191ad8285a9bf428ace579d541fda47661803ff44")
 	if err != nil {
 		panic(err)
 	}
